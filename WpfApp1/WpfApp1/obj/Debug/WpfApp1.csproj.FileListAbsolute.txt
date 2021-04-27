@@ -1,0 +1,57 @@
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.dll
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\RestSharp.dll
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.pdb
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\RestSharp.xml
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\Weather.g.cs
+C:\Users\АхметовР.NEW\source\repos\WpfApp1\WpfApp1\obj\Debug\Weather.baml
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.dll
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\RestSharp.dll
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.pdb
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\RestSharp.xml
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\Weather.g.cs
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\Weather.baml
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\ClassLibrary1.dll.config
