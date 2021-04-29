@@ -6,38 +6,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="850" Width="1400">
+        Title="MainWindow" Height="500" Width="700">
     <Grid Background="#8f8771">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Rectangle Fill="#291d1c" RadiusX="15" RadiusY="15" Margin="0,739,4.8,0" />
-        <Button FontSize="20" Opacity="0.6" Background="#291d1c" Height="Auto" Margin="3,739,447.8,15" Click="Button_Click" RenderTransformOrigin="0.5,0.5">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.119"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform> Show
-        </Button>
-        <Rectangle Fill="#291d1c" RadiusX="15" RadiusY="15" Margin="259,182,167.8,565"/>
-        <TextBlock Foreground="White" Text="The Weather" FontStyle="Italic" FontSize="40" Margin="277,182,57.8,565"></TextBlock>
+        <Image Source="C:\Users\wolfr\OneDrive\Рабочий стол\WpfApp1\ClassLibrary1\img\img2.jpg"></Image>
+        <Button Content="Начать" FontSize="20" Opacity="0.5" Background="Black" Height="Auto" Margin="0,417,432.6,10.4" Click="Button_Click" RenderTransformOrigin="0.5,0.5"></Button>
 
-        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.temp}" Opacity="0.2" Background="Gray" FontSize="15"  x:Name="Weathers" Margin="602,310,9.8,157" RenderTransformOrigin="0.5,0.5"/>
-        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.feels_like}" Opacity="0.2" Background="Gray" FontSize="15" x:Name="textbox1" Margin="639,310,639,157" />
-        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.temp_min}" Opacity="0.2" Background="Gray" FontSize="15" x:Name="textbox2" Margin="511,310,94.8,157" />
-        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.temp_max}" Opacity="0.2" Background="Gray" FontSize="15" x:Name="textbox3" Margin="431,310,185.8,157"/>
-        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.pressure}" Opacity="0.2" Background="Gray" FontSize="15" x:Name="textbox4" Margin="343,310,265.8,157"/>
-        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.humidity}" Opacity="0.2" Background="Gray" FontSize="15" x:Name="textbox5" Margin="259,310,353.8,157"/>
-        <TextBox Foreground="Black" FontStyle="Italic" FontSize="20" Margin="10,310,442.8,427" x:Name="txt" TextChanged="TextBox_TextChanged"></TextBox>
+        <TextBlock Foreground="White" Text="The Weather" FontStyle="Italic" FontSize="40" Margin="186,0,148.6,403.4"></TextBlock>
 
-        <Rectangle Grid.Column="1" Fill="#291d1c" RadiusX="15" RadiusY="15" Margin="10.2,739,9.6,0"/>
-        <Button FontSize="15" Opacity="0.6" Background="#291d1c" Margin="409,739,31.8,11" Click="Button_Click_Weather" Content="Weather" Height="Auto" ></Button>
-        <Button FontSize="20" Opacity="0.6" Background="#291d1c" Height="Auto" Click="Button_Click_Infa" Content="Показать историю" Margin="52.2,756,44.6,11" RenderTransformOrigin="0.5,0.502" Grid.Column="1"></Button>
+        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.temp}" Opacity="0.2" Background="Gray" FontSize="20"  x:Name="Weathers" Margin="518,0,-0.4,426.4" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.feels_like}" Opacity="0.2" Background="Gray" FontSize="20" x:Name="textbox1" Margin="518,178,-0.4,253.4" RenderTransformOrigin="0.5,0.5" ></TextBlock>
+        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.temp_min}" Opacity="0.2" Background="Gray" FontSize="20" x:Name="textbox2" Margin="518,217,-0.4,214.4" />
+        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.temp_max}" Opacity="0.2" Background="Gray" FontSize="20" x:Name="textbox3" Margin="518,44,-0.4,380.4" RenderTransformOrigin="0.5,0.5"></TextBlock>
+        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.pressure}" Opacity="0.2" Background="Gray" FontSize="20" x:Name="textbox4" Margin="518,90,-0.4,335.4"/>
+        <TextBlock FontStyle="Italic" Foreground="Black" Text="{Binding Path=main.humidity}" Opacity="0.2" Background="Gray" FontSize="20" x:Name="textbox5" Margin="518,135,-0.4,292.4"/>
+        <TextBox Foreground="Black" FontStyle="Italic" FontSize="20" Margin="10,192,468.6,220.4" x:Name="txt" TextChanged="TextBox_TextChanged"></TextBox>
 
-        <ListBox x:Name="listb" Grid.Column="1" Margin="0.2,0,-0.4,91"></ListBox>
+        <Button FontSize="15" Opacity="0.5" Background="Black" Margin="431,417,9.6,10.4" Click="Button_Click_Weather" Content="Weather" Height="Auto" ></Button>
+        <Button FontSize="20" Opacity="0.5" Background="Black" Height="Auto" Click="Button_Click_Infa" Content="История БД" Margin="261,417,262.6,10.4" RenderTransformOrigin="0.5,0.502"/>
+            <ScrollViewer Height="136" Width="358" Margin="289,276,46.6,58.4">
+               <TextBox FontSize="20" x:Name="aaa" Height="126" Width="296"></TextBox>
+            </ScrollViewer>
     </Grid>
 </Window>

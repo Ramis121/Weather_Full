@@ -69,6 +69,7 @@
     <Compile Include="GetWeatherServies.cs" />
     <Compile Include="Infa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializableWeather.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

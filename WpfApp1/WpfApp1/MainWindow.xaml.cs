@@ -15,6 +15,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace WpfApp1
 {
@@ -24,12 +27,12 @@ namespace WpfApp1
     public partial class MainWindow : Window
     {
         private GetWeatherService _weatherServies;
-        ObservableCollection<string> str; 
+        ObservableCollection<string> str;
+        public Main main { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            str = new ObservableCollection<string>();
-            listb.ItemsSource = str;
+            str = new ObservableCollection<string>(); 
             _weatherServies = new GetWeatherService();
         }
 
@@ -37,7 +40,6 @@ namespace WpfApp1
         {
             try
             {
-                Task.Delay(10); 
                 var weather = _weatherServies.GetWeather(txt.Text);
                 if (weather != null)
                 {
@@ -47,16 +49,57 @@ namespace WpfApp1
             }
             catch (Exception rx)
             {
-                textbox3.Text = rx.Message;
+                textbox3.Text = rx.Message; 
             }
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e){ }
+        private void FileStream(string path)
+        {
+            using (var sw = new StreamWriter(path, true))
+            {
+                sw.WriteLine(txt.Text);   
+            }
+
+            using (var sr = new StreamReader(path, true))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    aaa.Text = sr.ReadToEnd();
+                }
+            }
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Weather_Click();
+        }
+
+        private bool Weather_Click()
+        {
+            if (txt.Text != null)
+                return true;
+            else
+                return false;
+        }
 
         private void Button_Click_Infa(object sender, RoutedEventArgs e)
         {
-            string first = txt.Text;
-            str.Add(first);
+            FileStream("Fail.txt"); 
+            try
+            {
+                if (txt.Text != null)
+                {
+                    string first = txt.Text;
+                    str.Add(first);
+                }
+                else
+                    throw new Exception("В истории нет Городов");
+            }
+            catch (Exception ex)
+            {
+                txt.Text = ex.Message;
+            }
         }
 
         private void Button_Click_Weather(object sender, RoutedEventArgs e)
